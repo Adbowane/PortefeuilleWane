@@ -1,18 +1,18 @@
 on: push
-name: Deploy website on push
+name: 🚀 Deploy website on push
 jobs:
-   web-deploy:
-       name: Deploy
-       runs-on: ubuntu-latest
-       steps:
-      - name: Get latest code
-         uses: actions/checkout@v3
-       
-      - name: Sync files
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: win6218.site4now.net
-          username: ${{ secrets. FTPUSERNAME }}
-          password: ${{ secrets. FTPPASSWORD }}
-          protocol: ftps
-          server-dir: h:/root/home/wanovski-001/www/portefolio/portefeuillewane/
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: win6218.site4now.net
+        username: ${{ secrets. FTPUSERNAME }}
+        password: ${{ secrets. FTPPASSWORD }}
+        protocol: ftp
+        server-dir: h:/root/home/wanovski-001/www/portefolio/portefeuillewane/
