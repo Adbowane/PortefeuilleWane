@@ -12,7 +12,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: win6218.site4now.net
-        username: ${{ secrets. FTPUSERNAME }}
-        password: ${{ secrets. FTPPASSWORD }}
+        username: wanovski-001
+        password: Laye2003
         protocol: ftp
         server-dir: h:/root/home/wanovski-001/www/portefolio/portefeuillewane/
