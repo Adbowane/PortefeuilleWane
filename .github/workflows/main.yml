@@ -15,4 +15,4 @@ jobs:
         username: wanovski-001
         password: Laye2003
         protocol: ftp
-        server-dir: h:\root\home\wanovski-001\www\portefolio\portefeuillewane\
+        server-dir: h:/root/home/wanovski-001/www/portefolio/portefeuillewane/
