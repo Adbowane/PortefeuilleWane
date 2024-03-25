@@ -14,5 +14,5 @@ jobs:
         server: win6218.site4now.net
         username: wanovski-001
         password: Laye2003
-        protocol: ftps
-        server-dir: h:/root/home/wanovski-001/www/portefolio/portefeuillewane/
+        protocol: ftp
+        server-dir: portefolio/portefeuillewane/
