@@ -15,4 +15,4 @@ jobs:
           username: ${{ secrets. FTPUSERNAME }}
           password: ${{ secrets. FTPPASSWORD }}
           protocol: ftps
-          server-dir: public_html/PortefeuilleWane
+          server-dir: h:/root/home/wanovski-001/www/portefolio/portefeuillewane/
